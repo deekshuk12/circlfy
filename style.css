@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-color: #080A08; 
+}
+
+nav {
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 80px; /* Increased margin for more space */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+.nav-link {
+    color: #D9D9D9;
+    transition: color 0.4s ease;
+}
+
+.nav-link:hover {
+    color: #D9D9D9;
+    font-style: italic;
+}
+
+
+.container {
+    font-weight: 300;
+
+}
+
+h3 {
+    color: #D9D9D9;
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #D9D9D9;
+    font-size: 22px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    height: 100vh;
+    margin-top: -50px; 
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+svg {
+    position: absolute; /* Use position absolute for precise positioning */
+    right: 180px; /* Adjust left position as needed */
+    top: 280px; /* Adjust top position as needed */
+}
+
+.product {
+    text-align: center;
+    margin-top: 120px;
+}
+
+h4 {
+    font-size: 40px;
+    color: #D9D9D9;
+}
+
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn {
+    background-color: #D9D9D9;
+    border:  2px #D9D9D9;
+    padding: 16px 50px;
+    font-size: 16px;
+    color:#080A08;
+    font-style: italic;
+    letter-spacing: 1;
+    font-family: 'Poppins';
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.upload-btn-wrapper i {
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 3px;
+}
+
+#numberOfSolutions {
+    width: 100px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 50px;
+    background-color: #D9D9D9;
+    color:#080A08;
+    border:  2px #D9D9D9;
+    padding-left: 300px;
+    font-family: 'Poppins';
+}
+
+.grad {
+    position: absolute;
+    top:400px;
+    width: 140%;
+    z-index: -1;
+    margin-right: -33%;
+}
+
+
+.click{
+    background-color: #D9D9D9;
+    border:  2px #D9D9D9;
+    padding: 16px 50px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-style: italic;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
