@@ -47,5 +47,13 @@ nav ul li a {
 
 .grad {
     margin-bottom: 400px;
-    padding-top: -300px;
+    margin-top: -250px;
+}
+
+h1 {
+    color: #D9D9D9;
+    font-size: 22px;
+    font-weight: 200;
+    font-style: italic;
+    padding-top: 50px;
 }
