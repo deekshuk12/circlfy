@@ -88,5 +88,21 @@ svg {
     margin-top: 170px;
 }
 
+.footer {
+    background-color: #080A08;
+    color: white;
+    padding: 100px;
+}
 
+.white-box {
+    position: absolute;
+    top: 137%;
+    left: calc(70% + 20px); /* Adjust the distance from the image */
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    background-color: #080A08;
+    z-index: 2;
+    color: #D9D9D9;
+}
 
